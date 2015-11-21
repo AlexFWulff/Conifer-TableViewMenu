@@ -13,6 +13,7 @@
 		FA37D9D51BFFF3C200232C53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA37D9D31BFFF3C200232C53 /* Main.storyboard */; };
 		FA37D9D71BFFF3C200232C53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA37D9D61BFFF3C200232C53 /* Assets.xcassets */; };
 		FA37D9DA1BFFF3C200232C53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA37D9D81BFFF3C200232C53 /* LaunchScreen.storyboard */; };
+		FA37D9E31BFFF41C00232C53 /* TableViewMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = FA37D9E21BFFF41C00232C53 /* TableViewMenu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		FA37D9D61BFFF3C200232C53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA37D9D91BFFF3C200232C53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA37D9DB1BFFF3C200232C53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA37D9E11BFFF41C00232C53 /* TableViewMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewMenu.h; sourceTree = "<group>"; };
+		FA37D9E21BFFF41C00232C53 /* TableViewMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewMenu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		FA37D9C91BFFF3C200232C53 /* ConiferTableViewMenu */ = {
 			isa = PBXGroup;
 			children = (
+				FA37D9E11BFFF41C00232C53 /* TableViewMenu.h */,
+				FA37D9E21BFFF41C00232C53 /* TableViewMenu.m */,
 				FA37D9CD1BFFF3C200232C53 /* AppDelegate.h */,
 				FA37D9CE1BFFF3C200232C53 /* AppDelegate.m */,
 				FA37D9D01BFFF3C200232C53 /* ViewController.h */,
@@ -151,6 +156,7 @@
 			files = (
 				FA37D9D21BFFF3C200232C53 /* ViewController.m in Sources */,
 				FA37D9CF1BFFF3C200232C53 /* AppDelegate.m in Sources */,
+				FA37D9E31BFFF41C00232C53 /* TableViewMenu.m in Sources */,
 				FA37D9CC1BFFF3C200232C53 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

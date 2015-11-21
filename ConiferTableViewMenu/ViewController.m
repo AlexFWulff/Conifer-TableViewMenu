@@ -19,9 +19,25 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+-(void)viewDidAppear:(BOOL)animated {
+    
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
+    
 }
 
+- (IBAction)buttonPress:(id)sender {
+    TableViewMenu *menu = [[TableViewMenu alloc] init];
+    menu.tableViewSuperView = self.view;
+    
+    NSMutableArray *options = [[NSMutableArray alloc] initWithObjects:@"One",@"Two",@"Three",@"Four", nil];
+    
+    UITableView *tv = [[UITableView alloc] init];
+    
+    [menu openTableView:tv withOptions:options withDuration:0.5];
+}
 @end

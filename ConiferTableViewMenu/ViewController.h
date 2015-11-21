@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TableViewMenu.h"
 
 @interface ViewController : UIViewController
 
+- (IBAction)buttonPress:(id)sender;
 
 @end
 
