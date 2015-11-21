@@ -31,13 +31,14 @@
 }
 
 - (IBAction)buttonPress:(id)sender {
+    
     TableViewMenu *menu = [[TableViewMenu alloc] init];
     menu.tableViewSuperView = self.view;
     
     NSMutableArray *options = [[NSMutableArray alloc] initWithObjects:@"One",@"Two",@"Three",@"Four", nil];
-    
-    UITableView *tv = [[UITableView alloc] init];
-    
-    [menu openTableView:tv withOptions:options withDuration:0.5];
+        
+    [menu openTableViewWithOptions:options withDuration:0.5 superView:self.view completion:^(int indexOfSelection) {
+        NSLog(@"%@",[options objectAtIndex:indexOfSelection]);
+    }];
 }
 @end
