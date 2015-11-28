@@ -98,8 +98,10 @@
         
     }
     
-    cell.backgroundColor = [UIColor clearColor];
+    //Uncomment for white text
+//        cell.textLabel.textColor = [UIColor whiteColor];
     
+    cell.backgroundColor = [UIColor clearColor];
     cell.textLabel.text = [self.tableViewData objectAtIndex:indexPath.row];
     return cell;
 }

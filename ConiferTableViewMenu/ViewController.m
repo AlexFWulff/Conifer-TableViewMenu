@@ -33,7 +33,6 @@
 - (IBAction)buttonPress:(id)sender {
     
     TableViewMenu *menu = [[TableViewMenu alloc] init];
-    menu.tableViewSuperView = self.view;
     
     NSMutableArray *options = [[NSMutableArray alloc] initWithObjects:@"One",@"Two",@"Three",@"Four", nil];
         

@@ -20,18 +20,96 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hOz-ho-5El">
                                 <rect key="frame" x="34" y="44" width="46" height="30"/>
                                 <animations/>
-                                <state key="normal" title="Button"/>
+                                <color key="backgroundColor" red="0.2666666667" green="0.23137254900000001" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Menu">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="40" y="48" width="105" height="54"/>
+                                </variation>
                                 <connections>
                                     <action selector="buttonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SqX-JN-9yg"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LOQ-2b-WC0">
+                                <rect key="frame" x="34" y="44" width="46" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.74226361513137817" green="0.85942167043685913" blue="0.37565749883651733" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Menu">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="205" y="122" width="105" height="54"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jc8-QT-JhA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C9C-Ul-ddu">
+                                <rect key="frame" x="34" y="44" width="46" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.87450980389999999" green="0.20392156859999999" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Menu">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="71" y="225" width="105" height="54"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xVR-KH-pp9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jj6-7u-dLn">
+                                <rect key="frame" x="34" y="44" width="46" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.96964316849999999" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Menu">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="188" y="320" width="105" height="54"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NFU-qw-0rH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="thY-v0-uJS">
+                                <rect key="frame" x="34" y="44" width="46" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.1215686275" green="0.69411764710000001" blue="0.54117647059999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Menu">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="86" y="430" width="105" height="54"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bAI-iW-kWR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" red="0.74226361513137817" green="0.85942167043685913" blue="0.37565749883651733" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="LOQ-2b-WC0"/>
+                                <exclude reference="C9C-Ul-ddu"/>
+                                <exclude reference="Jj6-7u-dLn"/>
+                                <exclude reference="thY-v0-uJS"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="LOQ-2b-WC0"/>
+                                <include reference="C9C-Ul-ddu"/>
+                                <include reference="Jj6-7u-dLn"/>
+                                <include reference="thY-v0-uJS"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="244.5" y="222"/>
         </scene>
     </scenes>
 </document>

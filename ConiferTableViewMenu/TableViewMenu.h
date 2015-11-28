@@ -17,13 +17,12 @@
 
 @interface TableViewMenu : NSObject <UITableViewDataSource, UITableViewDelegate>
 
-@property (strong, nonatomic) UIView *tableViewSuperView;
-
 //This property should be private
 @property (strong, nonatomic) NSMutableArray *tableViewData;
 @property (strong, nonatomic) UITableView *tableView;
 @property (copy) void (^completionHandler)(int indexOfSelection);
 @property (nonatomic) float duration;
+@property (strong, nonatomic) UIView *tableViewSuperView;
 
 /**
  * Opens a UITableView for use as a menu with provided menu items
